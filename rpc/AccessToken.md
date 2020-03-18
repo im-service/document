@@ -11,6 +11,7 @@
   "secret":"8920depfr4pzqz3"
 }
 ```
+
 ##### 响应内容实例:
 ```json
 {
@@ -20,6 +21,7 @@
  	"msg":"获取成功"
 }
 ```
+
 #### 响应字段注解
 字段|类型|名称|描述
 :--:|:--:|:--:|:--:
@@ -27,6 +29,7 @@ status|int|状态码|如果为200是成功其他为失败
 token|string|授权|用于Api公共头部的`authorization`字段
 expire|string|过期时间|格式为`YYYY-MM-DD HH:II:SS` 格式的时间
 msg|string|消息反馈|用于错误时排错
+
 #### SDK代码示例
 ```php
 /**
